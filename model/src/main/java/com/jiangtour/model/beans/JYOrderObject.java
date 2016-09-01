@@ -1,10 +1,12 @@
 package com.jiangtour.model.beans;
 
 import java.util.List;
+import io.realm.annotations.RealmClass;
 
 /**
  * @author husky
  */
+@RealmClass
 public class JYOrderObject extends JYObject {
     private int state;
     private int substate;

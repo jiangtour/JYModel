@@ -37,7 +37,7 @@ public class ResponseManager {
         return Class.forName(realName);
     }
 
-    public static <T> T getObject(String json,Class<T> tClass) throws ClassNotFoundException {
+    public static <T> T getObject(String json,Class<T> tClass) {
         return new Gson().fromJson(json,tClass);
     }
 
