@@ -6,8 +6,7 @@ import io.realm.annotations.RealmClass;
 /**
  * @author husky
  */
-@RealmClass
-public class JYOrderObject extends JYObject {
+public class JYOrderObject{
     private int state;
     private int substate;
     private List<JYProductObject> product;
